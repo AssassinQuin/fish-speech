@@ -1,9 +1,10 @@
 import json
 import locale
 from pathlib import Path
+import os
 
 I18N_FILE_PATH = Path(__file__).parent / "locale"
-DEFAULT_LANGUAGE = "en_US"
+DEFAULT_LANGUAGE = "zh_CN"
 
 
 def load_language_list(language):
