@@ -387,10 +387,10 @@ def build_app():
                 with gr.Row():
                     with gr.Column(scale=3):
                         generate = gr.Button(
-                            value="\U0001F3A7 " + i18n("Generate"), variant="primary"
+                            value="\U0001f3a7 " + i18n("Generate"), variant="primary"
                         )
                         generate_stream = gr.Button(
-                            value="\U0001F3A7 " + i18n("Streaming Generate"),
+                            value="\U0001f3a7 " + i18n("Streaming Generate"),
                             variant="primary",
                         )
 
